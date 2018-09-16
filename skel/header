@@ -1,0 +1,16 @@
+#ifndef _UDUK_UDUK_H
+#define _UDUK_UDUK_H
+
+#include <uduk.h>
+
+#define MACRO _IOR( 'R', 0x00, int )
+
+struct s {
+  int ;
+};
+
+int 
+
+#define CONST 0x0000
+
+#endif
