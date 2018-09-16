@@ -1,0 +1,5 @@
+function! RunPython()
+  :Shell python %:p
+endfunction
+
+nnoremap <F7> :call RunPython()<CR>
