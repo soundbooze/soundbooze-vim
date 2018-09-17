@@ -1,0 +1,26 @@
+pre migrate
+
+pip3 install essentia librosa vamp
+pip3 install xgboost tensorflow hmmlearn
+pip3 install scikit-learn
+pip3 install rtmidi
+pip3 install opencv-python
+
+apt-get install python3-pip
+apt-get install python3-scipy python3-numpy python3-pandas
+apt-get install python3-pyo python3-mido
+apt-get install python3-deap
+
+### Virtual env
+
+python3 -m virtualenv env
+source env/bin/activate
+
+# install
+pip3 install ...
+
+# check
+which python3
+
+# quit
+deactivate
