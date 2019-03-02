@@ -8,7 +8,6 @@ fi
 #export PS1="\e[47m\u@\h \w> \e[m "
 #export PS1="> "
 
-
 #export PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig/
 #export LD_LIBRARY_PATH=/usr/local/lib64/
 
