@@ -6,39 +6,22 @@ if [ -f /etc/bashrc ]; then
 fi
 
 #export PS1="\e[47m\u@\h \w> \e[m "
-export PS1="> "
-export LESSHISTFILE=/dev/null
-export HISTFILE=/dev/null
+#export PS1="> "
 
-export PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig/
-export LD_LIBRARY_PATH=/usr/local/lib64/
+
+#export PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig/
+#export LD_LIBRARY_PATH=/usr/local/lib64/
 
 #
-export GL=`pkg-config --libs --cflags freeglut gl`
-export GLW=`pkg-config --libs --cflags glew glfw3`
-export GLIB=`pkg-config --libs --cflags glib-2.0`
-export GTK=`pkg-config --libs --cflags gtk+-2.0`
-export ALSA=`pkg-config --libs --cflags alsa`
-export PULSE=`pkg-config --libs --cflags libpulse-simple`
-export BCC=`pkg-config --libs --cflags libbcc`
+#export GL=`pkg-config --libs --cflags freeglut gl`
+#export GLW=`pkg-config --libs --cflags glew glfw3`
+#export GLIB=`pkg-config --libs --cflags glib-2.0`
+#export GTK=`pkg-config --libs --cflags gtk+-2.0`
+#export ALSA=`pkg-config --libs --cflags alsa`
+#export PULSE=`pkg-config --libs --cflags libpulse-simple`
+#export BCC=`pkg-config --libs --cflags libbcc`
 #
 
-# User specific aliases and functions
-
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
-alias ls='ls -lh --color'
-alias ll='ls'
-alias dir='ls -C'
-
-alias sysinfo='procinfo && iostat && vmstat && mpstat -P ALL && pidstat'
-alias df='df -h'
-alias free='free -m'
-alias uname='uname -ap'
-
-alias vim='vim -i NONE'
 alias wcap='wcap-decode capture.wcap --yuv4mpeg2 > capture.y4m'
 
 alias cflow='/home/oche/tools/cflow-1.5/src/cflow -Tn'
