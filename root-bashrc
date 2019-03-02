@@ -7,27 +7,11 @@ export HISTFILE=/dev/null
 export HISTFILESIZE=0
 export LD_LIBRARY_PATH=/usr/local/lib64
 
-# User specific aliases and functions
-
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
-alias ls='ls -lha --color'
-alias ll='ls'
-alias dir='ls -C'
-
 alias sysinfo='procinfo && iostat && vmstat && mpstat -P ALL && pidstat'
 alias sar='sar -n DEV 1'
-alias df='df -h'
-alias free='free -m'
 alias dropmem='cd && rm -rf .rnd .viminfo .cache .config .debug .local && sync; echo 1 > /proc/sys/vm/drop_caches && sync; echo 2 > /proc/sys/vm/drop_caches && sync; echo 3 > /proc/sys/vm/drop_caches'
-alias uname='uname -ap'
 
 alias setfont='setfont ter-p18n'
-
-alias vim='vim -i NONE'
-alias dnf='dnf -y'
 
 alias make='make -j4'
 alias gcc='gcc -O2 -Wall'
@@ -39,8 +23,3 @@ alias a=/usr/local/share/bcc/examples/hello_world.py
 alias b=/usr/local/share/bcc/examples/tracing/tcpv4connect.py
 alias c=/usr/local/share/bcc/tools/opensnoop
 alias d=/usr/local/share/bcc/tools/execsnoop
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
