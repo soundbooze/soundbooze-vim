@@ -48,5 +48,5 @@ map <C-o> :NERDTreeToggle<CR>
 <pre>
 # :PluginInstall
 # :NERDTree
-# F8 : Using Ctrl-] you will always go to the definition of a symbol which is pretty handy (use Ctrl-t to go backwards)
+# F8
 </pre>
