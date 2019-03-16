@@ -1,5 +1,5 @@
 # soundbooze-vim
-Configuration and setting
+Plugins, Configuration and Setting
 
 ### Build
 
