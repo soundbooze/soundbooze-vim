@@ -64,7 +64,7 @@ map <C-o> :NERDTreeToggle<CR>
 # F8
 </pre>
 
-#### CSCOPE
+#### CTAGS / CSCOPE
 
 ```
 CTAGS
