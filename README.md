@@ -23,7 +23,7 @@ wget -O ~/vimtaglist.zip \
  && cd ~/.vim && unzip ~/vimtaglist.zip
 ```
 
-### YouCompleteMe
+#### YouCompleteMe
 
 ```
 cd ~/.vim/bundle
